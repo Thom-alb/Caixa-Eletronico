@@ -1,3 +1,5 @@
 # Caixa-Eletronico
 Uma tela de caixa eletrônico, solicita um valor exibe em quantidade de notas de diversos valores até o valor solicitado.
 Esse é meu primeiro projeto usando tailwindCSS, apanhei para aprender a inserir e intalar ele no meu projeto em gradle, foi uma quebração de cabeça até baixar tudo certinho pelo próprio site, tive que atualizar o node, descbloquear o powerShell, incorporar o node_modules e criar o watch, esse que eu sei que ainda vou esquecer muitas vezes de criar, mas até fiz um comando para facilitar, fiz o tutorial do canal "I love Js", mas adicionei algumas coisas, a partir deste projeto vou criar um maior.
+
+Eu retirei toda a estrutura do gradle para ficar mais leve e rápido, pude entender melhor como funciona as estruturas de arquivos e diretorios, o que me ajudou muito, mas vou deixar para usar o gradle em projetos maiores.
