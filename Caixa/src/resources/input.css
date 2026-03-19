@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root{
+    --cor-azul: rgb(0, 162, 255);
+    --cor-azul-claro: rgb(147, 215, 255);
+    --cor-azul-destaque: rgb(59, 183, 255);
+    --cor-azul-apagado: rgb(15, 137, 207);
+    --cor-azul-apagado-opaco: rgba(15, 137, 207, 0.514);
+    --cor-rosa-claro: rgb(201, 44, 122);
+    --cor-branco: white;
+    --cor-cinza-claro: rgb(216, 214, 214);
+    --cor-cinza-medio: rgb(99, 99, 99);
+}

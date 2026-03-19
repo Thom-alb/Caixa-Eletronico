@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+    <link href="/src/resources/output.css" rel="stylesheet">
+    <style>
+        .none{
+            display: none;
+        }
+    </style>
+    
+</head>
+
+<body class="bg-linear-to-t from-[var(--cor-rosa-claro)] to-[var(--cor-azul)] ">
+    <div class="flex justify-center h-screen items-center ">
+        <form action="" class="bg-gray-100 text-center w-full max-w-md shadow-2xl rounded-2xl">
+            <fieldset>
+                <legend class="text-3xl p-8 bg-linear-to-t from-[var(--cor-azul)] to-[var(--cor-rosa-claro)] w-full text-white rounded-t-2xl">Caixa Eletrônico</legend>
+                <div class="m-6 mb-0">
+                    <input type="text" name="" id="" class="p-3 w-full border-2 border-gray-300 rounded-lg value" placeholder="Valor do Saque:">
+                    <p class="m-1 text-sm bg-red-300/50 font-semibold text-red-900 rounded-lg avisoNum none">! Informe um número !</p>
+                    <p class="m-1 text-sm bg-red-300/50 font-semibold text-red-900 rounded-lg avisoCent none">! Somente valores de reais, não trabalhamos com centavos !</p>
+                </div>
+                <div class="m-6 mb-0">
+                    <p class="p-3 bg-blue-300 rounded-lg">Notas Disponiveis: 200, 100, 50, 20, 10, 5, 2 e 1</p>
+                </div>
+                <div class="m-6">
+                    <button class="bg-[var(--cor-azul)] text-white uppercase p-3 w-full font-medium rounded-lg btn">EXIBIR SAQUE</button>
+
+                </div>
+                <div class="m-6">
+                    <p class="p-3 bg-blue-900 mb-2 text-white rounded-lg notasDuzentos none"></p>
+                    <p class="p-3 bg-blue-800 mb-2 text-white rounded-lg notasCem none"></p>
+                    <p class="p-3 bg-blue-700 mb-2 text-white rounded-lg notasCinquenta none"></p>
+                    <p class="p-3 bg-blue-600 mb-2 text-white rounded-lg notasVinte none"></p>
+                    <p class="p-3 bg-blue-500 mb-2 text-white rounded-lg notasDez none"></p>
+                    <p class="p-3 bg-blue-400 mb-2 text-white rounded-lg notasCinco none"></p>
+                    <p class="p-3 bg-blue-300 mb-2 text-white rounded-lg notasDois none"></p>
+                    <p class="p-3 bg-blue-200 mb-2 text-white rounded-lg notasUm none"></p>
+                </div>
+            </fieldset>
+        </form>
+        <script src="main.js">
+        </script>
+    </div>
+
+</body>
+
+</html>
