@@ -88,5 +88,5 @@ elBtn.addEventListener("click", (event) => {
         elNotasUm.classList.remove("none")
         elNotasUm.textContent = "Notas de R$ 1,00: " + notasUm;
     } else { elNotasUm.classList.add("none") }
-
+    elVal.value = "";
 });
