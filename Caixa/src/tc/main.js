@@ -24,10 +24,12 @@ elBtn.addEventListener("click", (event) => {
     //checando se o valor recebido está vazio ou não é número
     if (value == "" || isNaN(value)) {
         elReal.classList.remove("none")
+        elVal.value = "";
         return
     } 
     if (value % 1 !=0){
         elCentavo.classList.remove("none")
+        elVal.value = "";    
         return
     }
     //checagem do saldo, o valor é divido pelas notas pedidas e o que sobrar é divido pelo valor de uma nota menor, 
